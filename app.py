@@ -5,9 +5,9 @@ from wtforms import Form , StringField , TextAreaField , validators
 app = Flask(__name__)
 
 # Setting up MariaDB
-app.config["MYSQL_HOST"] = '192.168.1.235'
+app.config["MYSQL_HOST"] = 'mysql'
 app.config["MYSQL_USER"] = 'root'
-app.config["MYSQL_PASSWORD"] = '1234'
+app.config["MYSQL_PASSWORD"] = '102030'
 app.config["MYSQL_DB"] = 'prac'
 app.config["MYSQL_CURSORCLASS"] = 'DictCursor'
 # Initialising MariaDB
