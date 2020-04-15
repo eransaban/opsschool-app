@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Setting up MariaDB
 app.config["MYSQL_HOST"] = 'mysql'
-app.config["MYSQL_USER"] = 'root'
+app.config["MYSQL_USER"] = 'eks'
 app.config["MYSQL_PASSWORD"] = '102030'
 app.config["MYSQL_DB"] = 'prac'
 app.config["MYSQL_CURSORCLASS"] = 'DictCursor'
